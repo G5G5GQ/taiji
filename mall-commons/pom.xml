@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>wechat-mall</artifactId>
+        <groupId>com.mall</groupId>
+        <version>1.0.0.RELEASE</version>
+    </parent>
+    <packaging>pom</packaging>
+    <modelVersion>4.0.0</modelVersion>
+    <description>通用组件</description>
+    <artifactId>mall-commons</artifactId>
+
+    <modules>
+        <module>mall-common-core</module>
+        <module>mall-swagger-spring-boot-starter</module>
+        <module>mall-mybatis-plus-spring-boot-starter</module>
+        <module>mall-redis-spring-boot-starter</module>
+        <module>mall-syslog-spring-boot-starter</module>
+        <module>mall-web-spring-boot-starter</module>
+    </modules>
+
+</project>

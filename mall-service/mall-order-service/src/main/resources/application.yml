@@ -1,0 +1,38 @@
+server:
+  port: 9501
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: mall-order-service
+#  profiles:
+#    active: @profile.active@
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: @nacos.address@
+#        namespace: @nacos.namespace@
+#        username: @nacos.username@
+#        password: @nacos.password@
+#      config:
+#        server-addr: @nacos.address@
+#        file-extension: yml
+#        namespace: @nacos.namespace@
+#        username: @nacos.username@
+#        password: @nacos.password@
+#        shared-configs:
+#          - dataId: property-mysql-common.yml
+#            refresh: true
+#          - dataId: property-common.yml
+#            refresh: true
+#          - dataId: property-manage-conf-service.yml
+#            refresh: true
+#          - dataId: property-redis.yml
+#            refresh: true
+#        enabled: true
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/wechat_mall?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+

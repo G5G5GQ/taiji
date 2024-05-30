@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.mall.web.autoconfigure.FeignAutoConfiguration,\
+com.mall.web.autoconfigure.ValidationAutoConfiguration,\
+com.mall.web.autoconfigure.AbstractWebMvcAutoConfiguration,\
+com.mall.web.exception.GlobalExceptionHandler
