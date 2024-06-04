@@ -11,5 +11,30 @@
     <artifactId>mall-auth</artifactId>
     <description>权限认证服务</description>
 
+    <!-- Sa-Token 权限认证，在线文档：https://sa-token.cc -->
+    <dependencies>
+        <dependency>
+            <groupId>cn.dev33</groupId>
+            <artifactId>sa-token-spring-boot-starter</artifactId>
+            <version>1.38.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.mall</groupId>
+            <artifactId>mall-swagger-spring-boot-starter</artifactId>
+            <version>${mall-framework.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.mall</groupId>
+            <artifactId>mall-redis-spring-boot-starter</artifactId>
+            <version>${mall-framework.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.mall</groupId>
+            <artifactId>mall-web-spring-boot-starter</artifactId>
+            <version>${mall-framework.version}</version>
+        </dependency>
+    </dependencies>
+
+
 
 </project>
