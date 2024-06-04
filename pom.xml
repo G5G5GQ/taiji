@@ -13,6 +13,9 @@
         <module>mall-commons</module>
         <module>mall-service</module>
         <module>mall-service-api</module>
+
+        <module>mall-auth</module>
+        <module>mall-gateway</module>
     </modules>
 
     <properties>

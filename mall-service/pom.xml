@@ -16,6 +16,7 @@
 
     <modules>
         <module>mall-order-service</module>
+        <module>mall-user-service</module>
     </modules>
 
     <dependencies>

@@ -9,6 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>mall-order-service</artifactId>
+    <description>订单服务</description>
 
     <dependencies>
         <dependency>
@@ -26,15 +27,11 @@
             <artifactId>mall-mybatis-plus-spring-boot-starter</artifactId>
             <version>${mall-framework.version}</version>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>com.mall</groupId>-->
-<!--            <artifactId>mall-syslog-spring-boot-starter</artifactId>-->
-<!--            <version>${mall-framework.version}</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.boot</groupId>-->
-<!--            <artifactId>spring-boot-starter-logging</artifactId>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>com.mall</groupId>
+            <artifactId>mall-swagger-spring-boot-starter</artifactId>
+            <version>${mall-framework.version}</version>
+        </dependency>
 
 
     </dependencies>
